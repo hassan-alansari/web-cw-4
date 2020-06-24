@@ -2,7 +2,9 @@ html, body{
     margin: 0;
     height: 100%;
 }
-
+body{
+    background-color: #495867;
+}
 /* من الخواص التي يجب تغيرها لكي تصل للمطلوب
     1. لون الخلفيه
     2. الطول والعرض
@@ -12,29 +14,73 @@ html, body{
     6. border radius */
 
 /* عند الحاجه w3schools قم بالاستعانه بموقع  */
+.flex{
+    display: flex;
+
+height: 100%;
+}
 
 .sidebar{
+    background-color: #ddbea9;
+color: #a5a58d;
+width: 122px;
+text-align: center;
+padding: 2px;
+margin: 2px;
+border-radius: 4.8px;
+margin-top: 4px;
     /* pxالعرض هنا يجب ان يكون 120 */
 }
 
 .header{
+    height: 24%;
+    background-color: #eddcd2;
+    padding: 5px;
+    display: inline-block;
+    color: #a5a58d;
+    width: 1300px;
+    border-radius: 4.8px;
+   margin: 4px;
     /* pxالطول هنا يجب ان يكون 80 */
 }
+ul{
+    list-style-type: none
+}
 
+
+li{
+    color: #a5a58d;
+    text-align: left;
+margin: 0px;
+}
 .main{
-
+background-color: #eddcd2;
+height: 72%;
+color: #a5a58d;
+width: 1400x;
+border-radius: 4.8px;
+margin: 4px;
 }
 
 a{
-    color: darkgray;
+    color: #a5a58d;
+    text-align: left;
+    text-decoration: none;
+    padding: 0px;
     /* اجعل شكل اللنك من غير خط اسفل الكلام */
+} 
+
+a:hover{
+    color: black;
 }
 
 /* !بــونص */
 /* (hover) اجعل اللنك يتغير لونه الى الابيض عند التأشير عليه */
 /* (p) غير محاذاة الفقرات لتصبح بالوسط */
 
+p{text-align: center;
 
+}
 
 h1{
     margin: 0;
@@ -45,4 +91,6 @@ h2{
     margin: 0;
     margin-left: 5px;
 }
+
+
 
